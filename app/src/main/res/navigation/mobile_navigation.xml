@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_explore">
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.hotel.ui.explore.FragmentExplore"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/navigation_wish"
+        android:name="com.hotel.ui.wish.FragmentWish"
+        android:label="@string/title_wish"
+        tools:layout="@layout/fragment_wish" />
+
+    <fragment
+        android:id="@+id/navigation_story"
+        android:name="com.hotel.ui.story.FragmentStory"
+        android:label="@string/title_story"
+        tools:layout="@layout/fragment_story" />
+
+    <fragment
+        android:id="@+id/navigation_mails"
+        android:name="com.hotel.ui.mails.FragmentMails"
+        android:label="@string/title_mails" />
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.hotel.ui.login.FragmentLogin"
+        android:label="@string/title_login"
+        tools:layout="@layout/fragment_login"/>
+</navigation>
