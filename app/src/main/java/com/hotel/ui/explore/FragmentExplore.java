@@ -53,7 +53,7 @@ public class FragmentExplore extends BaseFragment<ExploreConstract.Persenter> im
         if (pos == 0) {
             Toast.makeText(context, "点击的是左边", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(context, "点击的是右边", Toast.LENGTH_SHORT).show();git
+            Toast.makeText(context, "点击的是右边", Toast.LENGTH_SHORT).show();
         }
     }
 }
